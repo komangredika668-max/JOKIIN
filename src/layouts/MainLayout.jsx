@@ -11,8 +11,8 @@ export default function MainLayout() {
           className="w-full bg-cover bg-center h-72 flex-col flex justify-center items-center drop-shadow-md mt-8"
              style={{ backgroundImage: `url(${Background})` }}
           >
-            <h1 className="text-center font-bold text-5xl text-white">Jasa Joki Game Terpercaya</h1>
-            <p className="text-center text-lg mt-3 py-2 text-white">Bantu selesaikan target game kamu dengan aman , cepat, dan rapi</p>
+            <h1 className="font-text-center font-bold text-5xl text-white">Jasa Joki Game RPG Terpercaya</h1>
+            <p className="text-center text-lg mt-3 py-2 text-white">Selesaikan quest, farming material, hingga konten endgame tanpa ribet. Progres cepat dan akun anda dijamin aman</p>
       </div>
 
       {/* Main Section */} 

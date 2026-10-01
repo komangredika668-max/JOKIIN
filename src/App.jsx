@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import AdminLayout from './layouts/AdminLayout';
 import AdminDashboard from './pages/adminpages/AdminDashboard';
 import AboutPage from './pages/adminpages/AboutPage';
-import Cart from './pages/frontpages/Cart';
+import Cart from './pages/frontpages/Pesanan';
 import Aboutme from './pages/frontpages/Aboutme';
 
 
@@ -45,7 +45,7 @@ function App() {
   {/* Detail Produk */}
   <Route path="/product/:id" element={<ProductDetail />} />
   
-  <Route path="/cart" element={<Cart />} />
+  <Route path="/Pesanan" element={<Cart />} />
 
   {/* Admin */}
   <Route path="/admin" element={<AdminLayout />}>

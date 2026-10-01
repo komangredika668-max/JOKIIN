@@ -36,7 +36,7 @@ export default function Navbar() {
         </Link>
 
           <Link
-          to="/cart"
+          to="/Pesanan"
           onClick={() =>
             window.scrollTo({
               top: 0,

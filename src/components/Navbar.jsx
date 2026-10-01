@@ -1,12 +1,20 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/J.jpg";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white text-black white px-16 py-4 flex justify-between items-center border-b-2 sticky top-0 z-50 backdrop-blur-md bg-opacity-70">
+    <nav className="bg-white text-black white px-20 py-4 flex justify-between items-center border-b-2 sticky top-0 z-50 backdrop-blur-md bg-opacity-70">
 
-      <h1 className="font-bold text-2xl">
-        JOKIIN
-      </h1>
+      <div className="flex items-center">
+  <img
+    src={logo}
+    alt="JOKIIN"
+    className="w-12 h-12 object-contain"
+  />
+  <h1 className="font-bold text-2xl px-3">
+  JOKIIN
+</h1>
+</div>
 
       <div className="flex gap-12 text-lg font-semibold">
         <Link

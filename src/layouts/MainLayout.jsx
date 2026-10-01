@@ -4,11 +4,11 @@ import Background from "../assets/bg-home4.jpg";
 
 export default function MainLayout() { 
   return ( 
-    <div className="flex flex-col min-h-screen"> 
+    <div className="flex flex-col min-h-screen bg-gradient-to-t "> 
       {/* Header/Navbar */} 
       <Navbar /> 
          <div
-          className="w-full bg-cover bg-center h-72 flex-col flex justify-center items-center drop-shadow-md mt-8"
+          className="w-full bg-cover bg-center h-80 flex-col flex justify-center items-center drop-shadow-md mt-8"
              style={{ backgroundImage: `url(${Background})` }}
           >
             <h1 className="font-text-center font-bold text-5xl text-white">Jasa Joki Game RPG Terpercaya</h1>

@@ -4,9 +4,10 @@ import ProductCard from "../../components/ProductCard";
 export default function Dashboard() {
   return (
     <div className="px-5">
-      <h1 className="text-2xl font-bold mb-4">
-        Dashboard Produk
+      <h1 className="text-3xl font-bold mb-2">
+        Game yang Tersedia 
       </h1>
+      <p className="mb-5">Pilih game pavoritmu untuk melihat daftar layanan</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {products.map((item) => (

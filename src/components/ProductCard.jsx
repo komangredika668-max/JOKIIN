@@ -25,17 +25,10 @@ export default function ProductCard({ p }) {
       <Link
         to={`/product/${p.slug}`}   
         state={p}
-        className="text-blue-600 hover:underline mt-2 block"
+        className="text-white hover:underline mt-2 border w-[100px] h-[33px] rounded-md block text-xl text-center "
       >
-        Lihat Detail
+        Lihat Jasa
       </Link>
-
-      <button
-        onClick={() => addToCart(p)}
-        className="mt-3 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 flex items-center gap-2"
-      >
-        Add to Cart
-      </button>
     </div>
   );
 }

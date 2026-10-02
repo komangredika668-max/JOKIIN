@@ -9,7 +9,7 @@ export default function Navbar() {
   <img
     src={logo}
     alt="JOKIIN"
-    className="w-12 h-12 object-contain"
+    className="w-12 h-12 object-contain rounded-md"
   />
   <h1 className="font-bold text-2xl px-3">
   JOKIIN

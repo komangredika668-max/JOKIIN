@@ -3,7 +3,7 @@ import ProductCard from "../../components/ProductCard";
 
 export default function Dashboard() {
   return (
-    <div className="px-5">
+    <div className="px-5 mx-4">
       <h1 className="text-3xl font-bold mb-2">
         Game yang Tersedia 
       </h1>
